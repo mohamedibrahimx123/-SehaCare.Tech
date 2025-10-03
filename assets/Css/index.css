@@ -1,0 +1,654 @@
+/* ! **************************************Gernal Style Start***************************************************! */
+body {
+  font-family: "Roboto", sans-serif;
+}
+.fs-7 {
+  font-size: 1.38rem;
+}
+.home {
+  color: white;
+  line-height: 5px;
+  display: inline-block;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+.p-color {
+  color: #333;
+}
+.p-margin {
+  margin-top: -15px;
+}
+.p-mx {
+  max-width: 550px;
+}
+.left-25{
+  left: 20%;
+}
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.w-logo{
+  width: 100px ;
+}
+
+
+/* ! **************************************Gernal Style End***************************************************! */
+
+/* ! **************************************Navbar Style Start***************************************************! */
+.nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff;
+  transition: all 0.5s;
+}
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #902958;
+  transform: scale(1.1);
+}
+.nav-link:hover .home,
+.navbar-nav .nav-link.active:hover .home {
+  transform: scale(1.1);
+}
+.navbar-toggler {
+  padding: 0.6rem;
+}
+.w-logo-nav{
+  filter: brightness(0) invert(1); 
+  transition: filter 0.3s ease;
+  margin-left: 10px;
+  width: 90px;
+}
+.navbar.scrolled .w-logo-nav {
+  filter: none; 
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* ! **************************************Navbar Style End***************************************************! */
+
+/* ! **************************************Navbar media Start***************************************************! */
+/* Medium Laptops - 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-item {
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.75rem !important;
+    padding: 0.5rem 0.4rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem !important;
+  }
+
+  .home {
+    font-size: 1rem !important;
+  }
+}
+
+/* Large screens - 1200px to 1399px */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .nav-item {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.85rem !important;
+    padding: 0.5rem 0.6rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Tablets and below */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.695);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+/* 
+/* ! **************************************Navbar media End***************************************************! */
+
+/* ! **************************************Header Style Start***************************************************! */
+header .carousel-item {
+  position: relative;
+  height: 100vh;
+}
+header .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+header .carousel-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+header .carousel-caption {
+  bottom: 44%;
+  right: 10%;
+  left: auto;
+  text-align: right;
+  z-index: 2;
+}
+
+header .carousel-caption h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header .carousel-caption p {
+  font-size: 1.3rem;
+  margin-top: 28px;
+}
+/* ! **************************************Header Style End***************************************************! */
+
+/* ! **************************************Header Media Start***************************************************! */
+@media (max-width: 991.98px) {
+  header .carousel-caption {
+    display: block !important;
+    bottom: 45%;
+    text-align: center;
+  }
+
+  header .carousel-caption h2 {
+    font-size: 2rem;
+  }
+
+  header .carousel-caption p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header .carousel-item {
+    height: 100vh;
+  }
+
+  header .carousel-caption {
+    display: block !important;
+    bottom: 25%;
+    right: 3%;
+    left: 3%;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+  }
+
+  header .carousel-caption h2 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  header .carousel-caption p {
+    font-size: 0.85rem;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 575.98px) {
+  header .carousel-caption {
+    bottom: 20%;
+    padding: 0.75rem;
+  }
+
+  header .carousel-caption h2 {
+    font-size: 1rem;
+  }
+
+  header .carousel-caption p {
+    font-size: 0.75rem;
+    margin-top: 8px;
+  }
+}
+/* ! **************************************Header Media End***************************************************! */
+
+/* ! ************************************** Our Story Style Start***************************************************! */
+.story-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-underline {
+  width: 80px;
+  height: 4px;
+  background-color: #0d6efd;
+  border-radius: 5px;
+}
+
+.story-img {
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+.story-intro {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.story-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #555;
+}
+.story-subtext {
+  font-size: 1rem;
+  color: #777;
+}
+
+.story-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.story-list li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.journey {
+  background-color: #b1213a;
+  border: none;
+  transition: all 0.5s;
+  color: white;
+}
+.journey:hover {
+  background-color: #b12139d3;
+  color: white;
+}
+
+/* ! ************************************** Our Story Style End***************************************************! */
+
+/* ! ************************************** Our Story Media End***************************************************! */
+/* Extra Large Screens - 1400px and above */
+@media (min-width: 1400px) {
+  .story-title {
+    font-size: 2.8rem;
+  }
+  .story-intro {
+    font-size: 1.35rem;
+  }
+  .story-text,
+  .story-subtext {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+  .story-list li {
+    font-size: 1.1rem;
+  }
+  .story-img {
+    max-width: 95%;
+  }
+}
+
+/* Large Screens - 1200px to 1399px */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .story-title {
+    font-size: 2.5rem;
+  }
+  .story-intro {
+    font-size: 1.25rem;
+  }
+  .story-text,
+  .story-subtext {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .story-list li {
+    font-size: 1rem;
+  }
+}
+
+/* Medium Screens - 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .story-title {
+    font-size: 2.2rem;
+  }
+  .story-intro {
+    font-size: 1.15rem;
+  }
+  .story-text,
+  .story-subtext {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  .story-list li {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+  }
+  .story-img {
+    max-width: 100%;
+  }
+}
+
+/* Tablets - 768px to 991px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .story-title {
+    font-size: 2rem;
+  }
+  .story-intro {
+    font-size: 1.1rem;
+  }
+  .story-text,
+  .story-subtext {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  .story-list {
+  }
+  .story-list li {
+    font-size: 0.95rem;
+    margin-bottom: 0.7rem;
+  }
+  .story-img {
+    margin-bottom: 10rem;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .story-text,
+  .story-subtext{
+    font-size: 0.9rem;
+  }
+  .journey {
+    width: auto;
+    padding: 0.7rem 2rem !important;
+  }
+}
+
+/* Small Tablets - 576px to 767px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .story-title {
+    font-size: 1.8rem;
+  }
+  .story-intro {
+    font-size: 1.05rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .story-text,
+  .story-subtext {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .story-list {
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .story-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+  .story-img {
+    margin-bottom: 2rem;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .journey {
+    width: 100%;
+    max-width: 300px;
+  }
+  #our-story .text-md-start {
+    text-align: center !important;
+  }
+}
+
+/* Mobile - 400px to 575px */
+@media (min-width: 400px) and (max-width: 575.98px) {
+  .story-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .story-intro {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+  }
+  .story-text,
+  .story-subtext {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  .story-list {
+    text-align: center;
+    padding: 0 0.5rem;
+    margin: 1.2rem 0;
+  }
+  .story-list li {
+    font-size: 0.88rem;
+    margin-bottom: 0.8rem;
+  }
+  .story-list li i {
+    font-size: 0.85rem;
+  }
+  .story-img {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    border-radius: 12px !important;
+  }
+  .story-text,
+  .story-subtext{
+    text-align: center;
+  }
+  .journey {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+  #our-story .text-md-start {
+    text-align: center !important;
+  }
+}
+
+/* ! ************************************** Our Story Media End***************************************************! */
+
+/* ! ************************************** Our Future Tech style Start***************************************************! */
+.future-tech-section {
+  background: url("../imgs/1.jpg") no-repeat center  fixed;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+/* ! ************************************** Our Future Tech style End***************************************************! */
+
+/* ! ************************************** Our Future Tech style Start***************************************************! */
+.gradient-text {
+  background: linear-gradient(135deg, #e91e63, #9c27b0);
+  background-clip: text;
+  color: transparent;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  background: rgba(233, 30, 99, 0.1);
+  border-color: #e91e63;
+  transform: translateY(-5px);
+}
+.special-card {
+  background: linear-gradient(135deg, #e91e63, #9c27b0);
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.special-card:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(135deg, #d81b60, #7b1fa2);
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ! ************************************** Our Future Tech style End***************************************************! */
+
+/* ! ************************************** Our Footer style Start***************************************************! */
+footer {
+  background: #000;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ff1493, #da70d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #d0d0d0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer-link:hover {
+  color: #ff1493;
+  transform: translateX(-5px);
+}
+
+.contact-item {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #d0d0d0;
+}
+
+.contact-item i {
+  color: #ff1493;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: rgba(255, 20, 147, 0.2);
+  border-color: #ff1493;
+  color: #ff1493;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  background: rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+/* ! ************************************** Our Footer style End***************************************************! */
