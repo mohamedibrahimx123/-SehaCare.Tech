@@ -1,9 +1,12 @@
 /* ! **************************************Gernal Style Start***************************************************! */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Aref Ruqaa", serif;
 }
 .fs-7 {
   font-size: 1.38rem;
+}
+.fs-8{
+  font-size: .95rem;
 }
 .home {
   color: white;
@@ -264,6 +267,7 @@ header .carousel-caption p {
   margin-bottom: 2rem;
   position: relative;
 }
+
 .story-underline {
   width: 80px;
   height: 4px;
@@ -273,8 +277,10 @@ header .carousel-caption p {
 
 .story-img {
   max-width: 100%;
+  height: auto;
   transition: transform 0.3s ease;
 }
+
 .hover-scale:hover {
   transform: scale(1.02);
 }
@@ -283,15 +289,19 @@ header .carousel-caption p {
   font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 1rem;
+  line-height: 1.6;
 }
+
 .story-text {
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
   color: #555;
 }
+
 .story-subtext {
   font-size: 1rem;
+  line-height: 1.8;
   color: #777;
 }
 
@@ -300,43 +310,69 @@ header .carousel-caption p {
   padding: 0;
   margin: 1rem 0;
 }
+
 .story-list li {
   margin-bottom: 0.75rem;
   font-size: 1rem;
+  line-height: 1.6;
 }
 
 .journey {
   background-color: #b1213a;
   border: none;
-  transition: all 0.5s;
+  transition: all 0.3s ease;
   color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
 }
+
 .journey:hover {
-  background-color: #b12139d3;
+  background-color: #8f1a2e;
   color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(177, 33, 58, 0.3);
 }
 
 /* ! ************************************** Our Story Style End***************************************************! */
 
 /* ! ************************************** Our Story Media End***************************************************! */
-/* Extra Large Screens - 1400px and above */
 @media (min-width: 1400px) {
   .story-title {
-    font-size: 2.8rem;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
   }
+  
+  .story-underline {
+    width: 100px;
+    height: 5px;
+  }
+  
   .story-intro {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
   }
+  
   .story-text,
   .story-subtext {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     line-height: 2;
   }
+  
   .story-list li {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
   }
+  
   .story-img {
     max-width: 95%;
+  }
+  
+  .journey {
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -345,16 +381,25 @@ header .carousel-caption p {
   .story-title {
     font-size: 2.5rem;
   }
+  
   .story-intro {
     font-size: 1.25rem;
   }
+  
   .story-text,
   .story-subtext {
-    font-size: 1rem;
-    line-height: 1.8;
+    font-size: 1.05rem;
+    line-height: 1.85;
   }
+  
   .story-list li {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .journey {
+    padding: 0.85rem 2.5rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -362,21 +407,36 @@ header .carousel-caption p {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .story-title {
     font-size: 2.2rem;
+    margin-bottom: 1.75rem;
   }
+  
+  .story-underline {
+    width: 70px;
+  }
+  
   .story-intro {
     font-size: 1.15rem;
+    margin-bottom: 1.25rem;
   }
+  
   .story-text,
   .story-subtext {
-    font-size: 0.95rem;
-    line-height: 1.7;
+    font-size: 1rem;
+    line-height: 1.75;
   }
+  
   .story-list li {
-    font-size: 0.95rem;
-    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
   }
+  
   .story-img {
     max-width: 100%;
+  }
+  
+  .journey {
+    padding: 0.8rem 2.25rem;
+    font-size: 1rem;
   }
 }
 
@@ -384,124 +444,162 @@ header .carousel-caption p {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .story-title {
     font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
+  
+  .story-underline {
+    width: 65px;
+    height: 3px;
+  }
+  
   .story-intro {
     font-size: 1.1rem;
-  }
-  .story-text,
-  .story-subtext {
-    font-size: 0.95rem;
-    line-height: 1.7;
-  }
-  .story-list {
-  }
-  .story-list li {
-    font-size: 0.95rem;
-    margin-bottom: 0.7rem;
-  }
-  .story-img {
-    margin-bottom: 10rem;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .story-text,
-  .story-subtext{
-    font-size: 0.9rem;
-  }
-  .journey {
-    width: auto;
-    padding: 0.7rem 2rem !important;
-  }
-}
-
-/* Small Tablets - 576px to 767px */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .story-title {
-    font-size: 1.8rem;
-  }
-  .story-intro {
-    font-size: 1.05rem;
-    text-align: center;
-    line-height: 1.6;
-  }
-  .story-text,
-  .story-subtext {
-    font-size: 0.9rem;
-    line-height: 1.7;
-    text-align: center;
-  }
-  .story-list {
-    text-align: center;
-    padding: 0 1rem;
-  }
-  .story-list li {
-    font-size: 0.9rem;
-    margin-bottom: 0.8rem;
-  }
-  .story-img {
-    margin-bottom: 2rem;
-    max-width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .journey {
-    width: 100%;
-    max-width: 300px;
-  }
-  #our-story .text-md-start {
-    text-align: center !important;
-  }
-}
-
-/* Mobile - 400px to 575px */
-@media (min-width: 400px) and (max-width: 575.98px) {
-  .story-title {
-    font-size: 1.6rem;
-    margin-bottom: 1.5rem;
-  }
-  .story-intro {
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.6;
-    margin-bottom: 1.2rem;
-  }
-  .story-text,
-  .story-subtext {
-    font-size: 0.88rem;
-    line-height: 1.8;
-    text-align: justify;
     margin-bottom: 1rem;
   }
-  .story-list {
-    text-align: center;
-    padding: 0 0.5rem;
-    margin: 1.2rem 0;
-  }
-  .story-list li {
-    font-size: 0.88rem;
-    margin-bottom: 0.8rem;
-  }
-  .story-list li i {
-    font-size: 0.85rem;
-  }
-  .story-img {
-    margin-bottom: 1.5rem;
-    max-width: 100%;
-    border-radius: 12px !important;
-  }
+  
   .story-text,
-  .story-subtext{
+  .story-subtext {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  
+  .story-list li {
+    font-size: 0.95rem;
+    margin-bottom: 0.65rem;
+  }
+  
+  .story-img {
+    max-width: 100%;
+    margin: 0 auto 2rem;
+    display: block;
+  }
+  
+  .journey {
+    padding: 0.75rem 2rem;
+    font-size: 0.95rem;
+    width: auto !important;
+  }
+}
+
+/* Small Tablets & Large Phones - 576px to 767px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .story-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .story-underline {
+    width: 60px;
+    height: 3px;
+  }
+  
+  .story-intro {
+    font-size: 1.05rem;
+    margin-bottom: 0.9rem;
+  }
+  
+  .story-text,
+  .story-subtext {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin-bottom: 0.85rem;
+  }
+  
+  .story-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .story-img {
+    max-width: 100%;
+    margin: 0 auto 1.75rem;
+    display: block;
+  }
+  
+  .journey {
+    padding: 0.7rem 1.75rem;
+    font-size: 0.9rem;
+    width: 100% !important;
+    max-width: 280px;
     text-align: center;
   }
+}
+
+/* Mobile Devices - Below 576px */
+@media (max-width: 575.98px) {
+  .story-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .story-underline {
+    width: 50px;
+    height: 3px;
+  }
+  
+  .story-intro {
+    font-size: 1rem;
+    margin-bottom: 0.85rem;
+  }
+  
+  .story-text,
+  .story-subtext {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+  }
+  
+  .story-list {
+    margin: 0.75rem 0;
+  }
+  
+  .story-list li {
+    font-size: 0.875rem;
+    margin-bottom: 0.55rem;
+  }
+  
+  .story-img {
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+    display: block;
+  }
+  
   .journey {
-    width: 100%;
+    padding: 0.65rem 1.5rem;
+    font-size: 0.875rem;
+    width: 100% !important;
+    max-width: 250px;
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices - Below 400px */
+@media (max-width: 399.98px) {
+  .story-title {
+    font-size: 1.35rem;
+  }
+  
+  .story-underline {
+    width: 45px;
+  }
+  
+  .story-intro {
     font-size: 0.95rem;
   }
-  #our-story .text-md-start {
-    text-align: center !important;
+  
+  .story-text,
+  .story-subtext {
+    font-size: 0.85rem;
+  }
+  
+  .story-list li {
+    font-size: 0.85rem;
+  }
+  
+  .journey {
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem;
+    width: 100%;
   }
 }
 
@@ -518,7 +616,7 @@ header .carousel-caption p {
 }
 /* ! ************************************** Our Future Tech style End***************************************************! */
 
-/* ! ************************************** Our Future Tech style Start***************************************************! */
+/* ! ************************************** Information style Start***************************************************! */
 .gradient-text {
   background: linear-gradient(135deg, #e91e63, #9c27b0);
   background-clip: text;
@@ -566,7 +664,7 @@ header .carousel-caption p {
   justify-content: center;
 }
 
-/* ! ************************************** Our Future Tech style End***************************************************! */
+/* ! ************************************** Information style End***************************************************! */
 
 /* ! ************************************** Our Footer style Start***************************************************! */
 footer {

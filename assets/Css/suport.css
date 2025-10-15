@@ -1,0 +1,477 @@
+/* ! ************************************** Gernal Style Start*************************************************! */
+body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
+  font-family: "Aref Ruqaa", serif;
+}
+.w-90 {
+  width: 85%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+
+.fs-7 {
+  font-size: 1.38rem;
+}
+
+.fs-8 {
+  font-size: .95rem;
+}
+
+.home {
+  color: white;
+  line-height: 5px;
+  display: inline-block;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.p-color {
+  color: #333;
+}
+
+.p-margin {
+  margin-top: -15px;
+}
+
+.p-mx {
+  max-width: 550px;
+}
+
+.left-25 {
+  left: 20%;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.w-logo {
+  width: 100px;
+}
+
+/* ! ************************************** Gernal Style End*************************************************! */
+
+/* ! ************************************** Section One Start*************************************************! */
+.support-hero {
+  background: url('../imgs/3408105.jpg') center/cover no-repeat;
+  height: 60vh;
+  position: relative;
+}
+
+.support-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 19, 43, 0.7);
+}
+
+.support-hero .content {
+  z-index: 2;
+  max-width: 900px;
+}
+
+.support-hero h1 {
+  color: #fff;
+}
+
+.support-hero p {
+  color: #ddd;
+}
+
+.w-logo-nav {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+  margin-left: 10px;
+  width: 90px;
+}
+
+.nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #902958;
+  transform: scale(1.1);
+}
+
+.nav-link:hover .home,
+.navbar-nav .nav-link.active:hover .home {
+  transform: scale(1.1);
+}
+
+.navbar.scrolled .w-logo-nav {
+  filter: none;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* ! ************************************** Section One End*************************************************! */
+
+/* ! ************************************** Section Two & Three Start*************************************************! */
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#training p,
+#support p {
+  color: #333;
+  line-height: 1.9;
+}
+
+#training img,
+#support img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+#training img:hover,
+#support img:hover {
+  transform: scale(1.03);
+}
+
+/* ! ************************************** Section Two & Three End*************************************************! */
+
+/* ! ************************************** Section Four Start*************************************************! */
+#contact-support {
+  background: linear-gradient(90deg, #8e24aa, #d81b60);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-box {
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.work-hours {
+  margin-top: 3rem;
+}
+
+#contact-support i {
+  transition: transform 0.3s ease;
+}
+
+#contact-support i:hover {
+  transform: scale(1.1);
+}
+
+/* ! ************************************** Section Four End*************************************************! */
+
+
+
+/* ! ************************************** Our Footer style Start***************************************************! */
+/* ! ************************************** Gernal Style Start*************************************************! */
+.w-90 {
+  width: 85%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.fs-7 {
+  font-size: 1.38rem;
+}
+
+.fs-8 {
+  font-size: .95rem;
+}
+
+.home {
+  color: white;
+  line-height: 5px;
+  display: inline-block;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.p-color {
+  color: #333;
+}
+
+.p-margin {
+  margin-top: -15px;
+}
+
+.p-mx {
+  max-width: 550px;
+}
+
+.left-25 {
+  left: 20%;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.w-logo {
+  width: 100px;
+}
+
+/* ! ************************************** Gernal Style End*************************************************! */
+
+/* ! ************************************** Section One Start*************************************************! */
+.support-hero {
+  background: url('../imgs/3408105.jpg') center/cover no-repeat;
+  height: 60vh;
+  position: relative;
+}
+
+.support-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 19, 43, 0.7);
+}
+
+.support-hero .content {
+  z-index: 2;
+  max-width: 900px;
+}
+
+.support-hero h1 {
+  color: #fff;
+}
+
+.support-hero p {
+  color: #ddd;
+}
+
+.w-logo-nav {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+  margin-left: 10px;
+  width: 90px;
+}
+
+.nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #902958;
+  transform: scale(1.1);
+}
+
+.nav-link:hover .home,
+.navbar-nav .nav-link.active:hover .home {
+  transform: scale(1.1);
+}
+
+.navbar.scrolled .w-logo-nav {
+  filter: none;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* ! ************************************** Section One End*************************************************! */
+
+/* ! ************************************** Section Two & Three Start*************************************************! */
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#training p,
+#support p {
+  color: #333;
+  line-height: 1.9;
+}
+
+#training img,
+#support img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+#training img:hover,
+#support img:hover {
+  transform: scale(1.03);
+}
+
+/* ! ************************************** Section Two & Three End*************************************************! */
+
+/* ! ************************************** Section Four Start*************************************************! */
+#contact-support {
+  background: linear-gradient(90deg, #8e24aa, #d81b60);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-box {
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.work-hours {
+  margin-top: 3rem;
+}
+
+#contact-support i {
+  transition: transform 0.3s ease;
+}
+
+#contact-support i:hover {
+  transform: scale(1.1);
+}
+
+/* ! ************************************** Section Four End*************************************************! */
+
+
+
+/* ! ************************************** Our Footer style Start***************************************************! */
+footer {
+  background: #000;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ff1493, #da70d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #d0d0d0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer-link:hover {
+  color: #ff1493;
+  transform: translateX(-5px);
+}
+
+.contact-item {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #d0d0d0;
+}
+
+.contact-item i {
+  color: #ff1493;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: rgba(255, 20, 147, 0.2);
+  border-color: #ff1493;
+  color: #ff1493;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  background: rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+/* ! ************************************** Our Footer style End***************************************************! */

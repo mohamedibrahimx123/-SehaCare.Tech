@@ -1,0 +1,315 @@
+/* ! ************************************** Gernal Style Start*************************************************! */
+.w-90{
+  width: 85%;
+}
+.w-80{
+  width: 80%;
+}
+body {
+  font-family: "Aref Ruqaa", serif;
+}
+.fs-7 {
+  font-size: 1.38rem;
+}
+.fs-8{
+  font-size: .95rem;
+}
+.home {
+  color: white;
+  line-height: 5px;
+  display: inline-block;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+.p-color {
+  color: #333;
+}
+.p-margin {
+  margin-top: -15px;
+}
+.p-mx {
+  max-width: 550px;
+}
+.left-25{
+  left: 20%;
+}
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.w-logo{
+  width: 100px ;
+}
+/* ! ************************************** Gernal Style End*************************************************! */
+/* ! ************************************** Section One Start*************************************************! */
+.our-story-hero {
+  position: relative;
+  height: 80vh;
+  background-image: url("../imgs/—Pngtree—ekg\ heart\ monitor\ pulsating\ ecg_3330908.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.our-story-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(156, 39, 176, 0.5));
+}
+
+.our-story-hero .content {
+  position: relative;
+  z-index: 2;
+}
+
+.our-story-hero h1 {
+  background: linear-gradient(135deg, #e91e63, #9c27b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.w-logo-nav {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+  margin-left: 10px;
+  width: 90px;
+}
+
+.nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #902958;
+  transform: scale(1.1);
+}
+
+.nav-link:hover .home,
+.navbar-nav .nav-link.active:hover .home {
+  transform: scale(1.1);
+}
+/* ! ************************************** Section One End*************************************************! */
+
+/* ! ************************************** Section Two Start*************************************************! */
+#founder {
+  background-color: #faf6fb;
+}
+
+#founder p {
+  line-height: 1.9;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#founder img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+#founder img:hover {
+  transform: scale(1.03);
+}
+/* ! ************************************** Section Two End*************************************************! */
+
+/* ! ************************************** Section Three Start*************************************************! */
+#about-us {
+  background-color: #ffffff;
+}
+
+#about-us p {
+  line-height: 1.9;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand {
+  color: blue;
+  font-weight: 600;
+}
+
+#about-us img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+#about-us img:hover {
+  transform: scale(1.03);
+}
+/* ! ************************************** Section Three End*************************************************! */
+
+/* ! ************************************** Section Four Start*************************************************! */
+#mission-vision {
+  background-color: #fff;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card i {
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.card:hover i {
+  transform: scale(1.1);
+}
+/* ! ************************************** Section Four End*************************************************! */
+/* ! ************************************** Section Five Start*************************************************! */
+#our-values {
+  background-color: #fff;
+}
+
+#our-values p {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #d81b60, #8e24aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#our-values .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#our-values .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+#our-values img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+#our-values img:hover {
+  transform: scale(1.03);
+}
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+.navbar.scrolled .w-logo-nav {
+  filter: none; 
+}
+/* ! ************************************** Section Five End*************************************************! */
+
+/* ! ************************************** Footer style Start***************************************************! */
+footer {
+  background: #000;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ff1493, #da70d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #d0d0d0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer-link:hover {
+  color: #ff1493;
+  transform: translateX(-5px);
+}
+
+.contact-item {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #d0d0d0;
+}
+
+.contact-item i {
+  color: #ff1493;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: rgba(255, 20, 147, 0.2);
+  border-color: #ff1493;
+  color: #ff1493;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  background: rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* ! ************************************** Footer style End***************************************************! */
+
