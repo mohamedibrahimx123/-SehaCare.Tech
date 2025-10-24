@@ -117,6 +117,7 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
 
 .navbar {
   transition: background-color 0.3s ease;
+  z-index: 9999 !important;
 }
 
 .navbar.scrolled {
@@ -475,3 +476,82 @@ footer {
   text-align: left;
 }
 /* ! ************************************** Our Footer style End***************************************************! */
+
+/* ! **************************************Navbar media Start***************************************************! */
+/* Medium Laptops - 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-item {
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.75rem !important;
+    padding: 0.5rem 0.4rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem !important;
+  }
+
+  .home {
+    font-size: 1rem !important;
+  }
+}
+
+/* Large screens - 1200px to 1399px */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .nav-item {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.85rem !important;
+    padding: 0.5rem 0.6rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Tablets and below */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+/* 
+/* ! **************************************Navbar media End***************************************************! */
