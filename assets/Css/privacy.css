@@ -1,0 +1,278 @@
+/* ! **************************************Gernal Style Start***************************************************! */
+body {
+  font-family: "Aref Ruqaa", serif;
+}
+.fs-7 {
+  font-size: 1.38rem;
+}
+.fs-8{
+  font-size: .95rem;
+}
+.home {
+  color: white;
+  line-height: 5px;
+  display: inline-block;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+.p-color {
+  color: #333;
+}
+.p-margin {
+  margin-top: -15px;
+}
+.p-mx {
+  max-width: 550px;
+}
+.left-25{
+  left: 20%;
+}
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.w-logo{
+  width: 100px ;
+}
+.m-footer{
+  margin-top: -25px;
+}
+
+/* ! **************************************Gernal Style End***************************************************! */
+
+/* ! **************************************Section One Style Start***************************************************! */
+.nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff;
+  transition: all 0.5s;
+}
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #902958;
+  transform: scale(1.1);
+}
+.nav-link:hover .home,
+.navbar-nav .nav-link.active:hover .home {
+  transform: scale(1.1);
+}
+.navbar-toggler {
+  padding: 0.6rem;
+}
+.w-logo-nav{
+  filter: brightness(0) invert(1); 
+  transition: filter 0.3s ease;
+  margin-left: 10px;
+  width: 90px;
+}
+.navbar.scrolled .w-logo-nav {
+  filter: none; 
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+  z-index: 9999 !important;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+.privacy-hero {
+  background: url("../imgs/privacy.jpg") center/cover no-repeat;
+  height: 60vh;
+  position: relative;
+}
+
+.privacy-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.privacy-hero .content {
+  z-index: 2;
+}
+/* ! **************************************Section One Style End***************************************************! */
+
+/* ! **************************************Navbar media Start***************************************************! */
+/* Medium Laptops - 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-item {
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.75rem !important;
+    padding: 0.5rem 0.4rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem !important;
+  }
+
+  .home {
+    font-size: 1rem !important;
+  }
+}
+
+/* Large screens - 1200px to 1399px */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .nav-item {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .nav-link {
+    font-size: 0.85rem !important;
+    padding: 0.5rem 0.6rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Tablets and below */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+/* 
+/* ! **************************************Navbar media End***************************************************! */
+
+
+/* ! **************************************Section Two Style Start***************************************************! */
+#privacy-policy p {
+  line-height: 1.9;
+  font-size: 1.05rem;
+  text-align: justify;
+}
+
+#privacy-policy h5 {
+  border-right: 4px solid #8b004e;
+  padding-right: 10px;
+}
+
+/* ! **************************************Section Two Style End***************************************************! */
+
+/* ! ************************************** Our Footer style Start***************************************************! */
+footer {
+  background: #000;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ff1493, #da70d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #d0d0d0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer-link:hover {
+  color: #ff1493;
+  transform: translateX(-5px);
+}
+
+.contact-item {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #d0d0d0;
+}
+
+.contact-item i {
+  color: #ff1493;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: rgba(255, 20, 147, 0.2);
+  border-color: #ff1493;
+  color: #ff1493;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  background: rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+/* ! ************************************** Our Footer style End***************************************************! */
