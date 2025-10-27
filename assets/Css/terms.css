@@ -98,7 +98,11 @@ body {
   z-index: 2;
 }
 
-
+.with-dot::after {
+  content: ".";
+  direction: rtl;
+  unicode-bidi: embed;
+}
 /* ! **************************************Section One End***************************************************! */
 
 
@@ -214,7 +218,8 @@ footer {
 
 .footer-link:hover {
   color: #ff1493;
-  transform: translateX(-5px);
+  
+  transform: scale(1.1);
 }
 
 .contact-item {

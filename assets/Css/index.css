@@ -41,7 +41,14 @@ body {
 .m-footer{
   margin-top: -25px;
 }
-
+.with-dot::after {
+  content: ".";
+  direction: rtl;
+  unicode-bidi: embed;
+}
+.d-rtl{
+  direction: rtl;
+}
 /* ! **************************************Gernal Style End***************************************************! */
 
 /* ! **************************************Navbar Style Start***************************************************! */
@@ -702,7 +709,8 @@ footer {
 
 .footer-link:hover {
   color: #ff1493;
-  transform: translateX(-5px);
+
+  transform: scale(1.1);
 }
 
 .contact-item {

@@ -41,7 +41,11 @@ body {
 .m-footer{
   margin-top: -25px;
 }
-
+.with-dot::after {
+  content: ".";
+  direction: rtl;
+  unicode-bidi: embed;
+}
 /* ! **************************************Gernal Style End***************************************************! */
 
 /* ! **************************************Section One Style Start***************************************************! */
@@ -224,7 +228,8 @@ footer {
 
 .footer-link:hover {
   color: #ff1493;
-  transform: translateX(-5px);
+  
+  transform: scale(1.1);
 }
 
 .contact-item {

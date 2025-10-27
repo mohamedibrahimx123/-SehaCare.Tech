@@ -55,7 +55,11 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
 .w-logo {
   width: 100px;
 }
-
+.with-dot::after {
+  content: ".";
+  direction: rtl;
+  unicode-bidi: embed;
+}
 /* ! ************************************** Gernal Style End*************************************************! */
 
 /* ! ************************************** Section One Start*************************************************! */
