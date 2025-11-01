@@ -1,7 +1,9 @@
-/* ! ************************************** Gernal Style Start*************************************************! */
-body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
+/* ! ************************************** General Style Start *************************************************! */
+
+body, h1, h2, h3, h4, h5, h6, p, li, span, a, small, strong {
   font-family: "Aref Ruqaa", serif;
 }
+
 .w-90 {
   width: 85%;
 }
@@ -9,7 +11,6 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
 .w-80 {
   width: 80%;
 }
-
 
 .fs-7 {
   font-size: 1.38rem;
@@ -55,14 +56,18 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
 .w-logo {
   width: 100px;
 }
+
 .with-dot::after {
   content: ".";
   direction: rtl;
   unicode-bidi: embed;
 }
-/* ! ************************************** Gernal Style End*************************************************! */
 
-/* ! ************************************** Section One Start*************************************************! */
+/* ! ************************************** General Style End *************************************************! */
+
+
+/* ! ************************************** Section One (Hero + Navbar) Start *************************************************! */
+
 .support-hero {
   background: url('../imgs/3408105.jpg') center/cover no-repeat;
   height: 60vh;
@@ -129,9 +134,11 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
   backdrop-filter: blur(10px);
 }
 
-/* ! ************************************** Section One End*************************************************! */
+/* ! ************************************** Section One End *************************************************! */
 
-/* ! ************************************** Section Two & Three Start*************************************************! */
+
+/* ! ************************************** Section Two & Three (Training + Support) Start *************************************************! */
+
 .text-gradient {
   background: linear-gradient(90deg, #d81b60, #8e24aa);
   -webkit-background-clip: text;
@@ -151,8 +158,6 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
   width: 100%;
   max-width: 500px;
   object-fit: cover;
-  border-radius: 1rem;
-  transition: transform 0.3s ease;
 }
 
 #training img:hover,
@@ -160,17 +165,13 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
   transform: scale(1.03);
 }
 
-/* ! ************************************** Section Two & Three End*************************************************! */
+/* ! ************************************** Section Two & Three End *************************************************! */
 
-/* ! ************************************** Section Four Start*************************************************! */
+
+/* ! ************************************** Section Four (Contact Support) Start *************************************************! */
+
 #contact-support {
   background: linear-gradient(90deg, #8e24aa, #d81b60);
-}
-
-.text-gradient {
-  background: linear-gradient(90deg, #d81b60, #8e24aa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .contact-box {
@@ -194,207 +195,11 @@ body, h1, h2, h3, h4, h5, h6 , p , li , span , a , small , strong {
   transform: scale(1.1);
 }
 
-/* ! ************************************** Section Four End*************************************************! */
+/* ! ************************************** Section Four End *************************************************! */
 
 
+/* ! ************************************** Footer Start *************************************************! */
 
-/* ! ************************************** Our Footer style Start***************************************************! */
-/* ! ************************************** Gernal Style Start*************************************************! */
-.w-90 {
-  width: 85%;
-}
-
-.w-80 {
-  width: 80%;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-.fs-7 {
-  font-size: 1.38rem;
-}
-
-.fs-8 {
-  font-size: .95rem;
-}
-
-.home {
-  color: white;
-  line-height: 5px;
-  display: inline-block;
-  transition: transform 0.25s ease, color 0.25s ease;
-}
-
-.p-color {
-  color: #333;
-}
-
-.p-margin {
-  margin-top: -15px;
-}
-
-.p-mx {
-  max-width: 550px;
-}
-
-.left-25 {
-  left: 20%;
-}
-
-.icon-circle {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-}
-
-.w-logo {
-  width: 100px;
-}
-
-/* ! ************************************** Gernal Style End*************************************************! */
-
-/* ! ************************************** Section One Start*************************************************! */
-.support-hero {
-  background: url('../imgs/3408105.jpg') center/cover no-repeat;
-  height: 60vh;
-  position: relative;
-}
-
-.support-hero .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(11, 19, 43, 0.7);
-}
-
-.support-hero .content {
-  z-index: 2;
-  max-width: 900px;
-}
-
-.support-hero h1 {
-  color: #fff;
-}
-
-.support-hero p {
-  color: #ddd;
-}
-
-.w-logo-nav {
-  filter: brightness(0) invert(1);
-  transition: filter 0.3s ease;
-  margin-left: 10px;
-  width: 90px;
-}
-
-.nav-link,
-.navbar-nav .nav-link.active {
-  color: #fff;
-  transition: all 0.5s;
-}
-
-.nav-link:hover,
-.navbar-nav .nav-link.active:hover {
-  color: #902958;
-  transform: scale(1.1);
-}
-
-.nav-link:hover .home,
-.navbar-nav .nav-link.active:hover .home {
-  transform: scale(1.1);
-}
-
-.navbar.scrolled .w-logo-nav {
-  filter: none;
-}
-
-.navbar {
-  transition: background-color 0.3s ease;
-}
-
-.navbar.scrolled {
-  background-color: rgba(0, 0, 0, 0.9) !important;
-  backdrop-filter: blur(10px);
-}
-
-/* ! ************************************** Section One End*************************************************! */
-
-/* ! ************************************** Section Two & Three Start*************************************************! */
-.text-gradient {
-  background: linear-gradient(90deg, #d81b60, #8e24aa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#training p,
-#support p {
-  color: #333;
-  line-height: 1.9;
-}
-
-#training img,
-#support img {
-  border-radius: 1rem;
-  transition: transform 0.3s ease;
-  width: 100%;
-  max-width: 500px;
-  object-fit: cover;
-  border-radius: 1rem;
-  transition: transform 0.3s ease;
-}
-
-#training img:hover,
-#support img:hover {
-  transform: scale(1.03);
-}
-
-/* ! ************************************** Section Two & Three End*************************************************! */
-
-/* ! ************************************** Section Four Start*************************************************! */
-#contact-support {
-  background: linear-gradient(90deg, #8e24aa, #d81b60);
-}
-
-.text-gradient {
-  background: linear-gradient(90deg, #d81b60, #8e24aa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.contact-box {
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.contact-box:hover {
-  transform: translateY(-5px);
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.work-hours {
-  margin-top: 3rem;
-}
-
-#contact-support i {
-  transition: transform 0.3s ease;
-}
-
-#contact-support i:hover {
-  transform: scale(1.1);
-}
-
-/* ! ************************************** Section Four End*************************************************! */
-
-
-
-/* ! ************************************** Our Footer style Start***************************************************! */
 footer {
   background: #000;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -422,12 +227,12 @@ footer {
   transition: all 0.3s ease;
   display: inline-block;
   margin-bottom: 20px;
-  text-align: left;
+  transform-origin: center;
 }
 
 .footer-link:hover {
   color: #ff1493;
-  transform: translateX(-5px);
+  transform: scale(1.1);
 }
 
 .contact-item {
@@ -443,7 +248,6 @@ footer {
   font-size: 18px;
   margin-top: 3px;
 }
-
 
 .social-icon {
   width: 40px;
@@ -477,11 +281,20 @@ footer {
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 18px;
-  text-align: left;
 }
-/* ! ************************************** Our Footer style End***************************************************! */
 
-/* ! **************************************Navbar media Start***************************************************! */
+@media (max-width: 992px) {
+  .footer-link:hover {
+    color: #d0d0d0;
+    transform: none;
+  }
+}
+
+/* ! ************************************** Footer End *************************************************! */
+
+
+/* ! ************************************** Navbar Media Queries Start *************************************************! */
+
 /* Medium Laptops - 992px to 1199px */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .nav-item {
@@ -557,5 +370,5 @@ footer {
     font-size: 1.5rem !important;
   }
 }
-/* 
-/* ! **************************************Navbar media End***************************************************! */
+
+/* ! ************************************** Navbar Media Queries End *************************************************! */

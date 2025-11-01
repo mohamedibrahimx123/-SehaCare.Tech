@@ -214,11 +214,11 @@ footer {
   transition: all 0.3s ease;
   display: inline-block;
   margin-bottom: 20px;
+  transform-origin: center;
 }
 
 .footer-link:hover {
   color: #ff1493;
-  
   transform: scale(1.1);
 }
 
@@ -269,5 +269,11 @@ footer {
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 18px;
+}
+@media (max-width: 992px) {
+  .footer-link:hover {
+    color: #d0d0d0;
+    transform: none;
+  }
 }
 /* ! ************************************** Our Footer style End***************************************************! */
